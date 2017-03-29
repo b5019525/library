@@ -8,8 +8,15 @@ class Course {
 	String department
 	String description
 	String studyMode
+	double tuitionFees
 
 	static hasMany=[students:Student]
+
+	double calculateFees(){
+
+	4*tuitionFees
+
+}
 
     static constraints = {
 
@@ -19,6 +26,7 @@ class Course {
 	department blank:false, nullable:false
 	description blank:false, nullable:false, maxSize:5000, widget:'textarea' 
 	studyMode blank:false, nullable:false, size:1..20
+	tuitionFees blank:false, nullable:false, scale:2
 
     }
 }

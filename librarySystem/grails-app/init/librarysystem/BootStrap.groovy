@@ -20,7 +20,9 @@ def course1= new Course (
 	leader:'Tom Jones',
 	department:'Computers',
 	description:'This is a course',
-	studyMode:'Full-time').save()
+	studyMode:'Full-time',
+	tuitionFees:9000
+).save()
 
 def stud1= new Student (
 

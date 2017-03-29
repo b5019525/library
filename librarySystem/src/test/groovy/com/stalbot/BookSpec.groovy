@@ -15,8 +15,13 @@ class BookSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void Test() {
+        when:"Book is created with Title and Author"
+		def newBook = new Book(title:'',author:'George')
+
+		then:"Validation should be correct"
+
+		!newBook.validate()
+           
     }
 }
