@@ -4,7 +4,7 @@ class Student {
 
 	String name
 	String email
-	String username
+	String userName
 	String password
 	String studentid
 	Course course
@@ -14,7 +14,7 @@ class Student {
 
 	String toString(){
 
-	"$name,$email,$username"
+	"$name,$email,$userName"
 }
 
 
@@ -22,7 +22,7 @@ class Student {
 
 	name blank:false, nullable:false
 	email blank:false, nullable:false, email:true
-	username blank:false, nullable:false, unique:true
+	userName blank:false, nullable:false, unique:true
 	password blank:false, nullable:false, password:true
 	studentid blank:false, nullable:false
 	course blank:false, nullable:false
