@@ -12,6 +12,9 @@ class Course {
 
 	static hasMany=[students:Student]
 
+	String toString(){
+	return title}
+
 	double calculateFees(){
 
 	4*tuitionFees

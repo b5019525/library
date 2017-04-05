@@ -13,9 +13,12 @@ class Student {
 	static hasMany=[books:Book]
 
 	String toString(){
+	return name}
+
+	/*String toString(){
 
 	"$name,$email,$userName"
-}
+}*/
 
 
     static constraints = {

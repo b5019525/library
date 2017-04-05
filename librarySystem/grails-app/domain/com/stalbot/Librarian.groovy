@@ -10,7 +10,8 @@ class Librarian {
 	String telephone
 	Library library
 	
-	
+	String toString(){
+	return name}
 
 	
 
