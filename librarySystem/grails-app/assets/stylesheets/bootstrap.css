@@ -3175,8 +3175,8 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-success {
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: white;
+  border-color: black;
 }
 .btn-success:focus,
 .btn-success.focus {
