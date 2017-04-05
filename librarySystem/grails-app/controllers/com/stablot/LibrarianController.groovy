@@ -16,7 +16,7 @@ class LibrarianController {
 		if(user && user.password == params.password){
 
 			session.user = user
-
+			session.role = 'librarian'
 			render view:'home'
 
 }
@@ -34,7 +34,7 @@ class LibrarianController {
 	def logout = {
 
 		session.user=null
-
+		session.role= null
 		redirect(uri:'/')
 
 
