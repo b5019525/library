@@ -76,6 +76,18 @@
 
 	</div>
 
+	<div class="Fith">
+
+		<h3>Search</h3>
+
+		<button type="button" class="btn btn-success">
+
+			<g:link controller="student" action="advSearch">Advanced Student Search</g:link>
+
+		</button>
+
+	</div>
+
 	</div>
 </div>
 
