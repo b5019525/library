@@ -41,6 +41,19 @@
 
 	</div>
 
+	<div class="third">
+
+		<h3>Search</h3>
+
+		<button type="button" class="btn btn-success">
+
+			<g:link controller="book" action="advSearch">Advanced Book Search</g:link>
+
+		</button>
+
+	</div>
+
+
 
 
 	

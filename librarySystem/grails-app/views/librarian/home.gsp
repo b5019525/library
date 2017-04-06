@@ -76,7 +76,7 @@
 
 	</div>
 
-	<div class="Fith">
+	<div class="fith">
 
 		<h3>Search</h3>
 
