@@ -51,7 +51,7 @@ class StudentController {
 		def students = Student.withCriteria{
 
 		"${params.queryType}"{
-
+		
 			params.each {field,value ->
 
 
